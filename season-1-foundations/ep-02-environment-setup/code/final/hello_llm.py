@@ -20,7 +20,7 @@ def call_model(model_id: str, prompt: str) -> None:
 
 
 def main() -> None:
-    prompt = "In one sentence, explain what an AI agent is to a beginner."
+    prompt ="
 
     # STEP 3 — Cloud models: only call the ones whose key is present in .env.
     if os.getenv("OPENAI_API_KEY"):
